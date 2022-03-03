@@ -1,39 +1,41 @@
 {
-  "name": "storybook-liquid-render",
-  "version": "1.0.0",
-  "description": "A library to help you to turn Liquid in HTML and use it on Storybook for HTML",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "dev": "jest --watch",
-    "build": "tsc",
-    "test": "jest",
-    "format": "prettier --write \"src/**/*.(ts|js)\"",
-    "lint": "tslint -p tsconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
-  },
-  "keywords": [
-    "liquid",
-    "storybook",
-    "shopify"
-  ],
-  "files": [
-    "lib/**/*"
-  ],
-  "author": "Thiguet",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/jest": "^27.4.1",
-    "jest": "^27.5.1",
-    "liquidjs": "^9.35.2",
-    "typescript": "^4.6.2",
-    "prettier": "^2.5.1",
-    "ts-jest": "^27.1.3",
-    "tslint": "^6.1.3",
-    "tslint-config-prettier": "^1.18.0"
-  }
+    "name": "storybook-liquid-render",
+    "version": "1.0.0",
+    "description": "A library to help you to turn Liquid in HTML and use it on Storybook for HTML",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "dev": "jest --watch",
+        "build": "tsc",
+        "test": "jest",
+        "format": "prettier --write \"src/**/*.(ts|js)\"",
+        "lint": "tslint -p tsconfig.json",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm test && npm run lint",
+        "preversion": "npm run lint",
+        "version": "npm run format && git add -A src",
+        "postversion": "git push && git push --tags"
+    },
+    "keywords": [
+        "liquid",
+        "storybook",
+        "shopify"
+    ],
+    "files": [
+        "lib/**/*"
+    ],
+    "author": "Thiguet",
+    "license": "ISC",
+    "dependencies": {
+        "liquidjs": "^9.35.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^27.4.1",
+        "jest": "^27.5.1",
+        "typescript": "^4.6.2",
+        "prettier": "^2.5.1",
+        "ts-jest": "^27.1.3",
+        "tslint": "^6.1.3",
+        "tslint-config-prettier": "^1.18.0"
+    }
 }
