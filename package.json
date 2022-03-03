@@ -1,6 +1,6 @@
 {
     "name": "storybook-liquid-render",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A library to help you to turn Liquid in HTML and use it on Storybook for HTML",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
