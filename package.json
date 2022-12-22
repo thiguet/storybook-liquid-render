@@ -27,7 +27,7 @@
     "author": "Thiguet",
     "license": "ISC",
     "dependencies": {
-        "liquidjs": "^9.35.2"
+        "liquidjs": "^10.0.0"
     },
     "devDependencies": {
         "@types/jest": "^27.4.1",
